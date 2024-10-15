@@ -12,7 +12,6 @@ public class Main {
 
 
         //задача 3
-
         for  (int i=1;i <= 17; i++) {
             if ((i % 2 == 0)) {
                 System.out.println(i);
@@ -35,14 +34,33 @@ public class Main {
         }
 
         //задача 6
+        for (int i = 7; i <= 98; i=i+7){
+            System.out.println(i);
+        }
 
         //задача 7
+        for (int i = 1; i <= 512; i=i*2){
+            System.out.println(i);
+        }
 
         //задача 8
+        int money = 29000;
+        int result = 0;
+        for(int i = 0;i<12;i++){
+            result = result + money;
+            System.out.println("Месяц " + i +" сумма накоплений равна "+ result+" рублей");
+        }
 
         //задчас 9
+        for(int i = 0;i<12;i++){
+            result = result + money/100*10;
+            System.out.println("Месяц " + i +" сумма накоплений равна "+ result+" рублей");
+        }
 
         //задача 10
-
+        for (int i = 1;i<=10; i++){
+            int c =  i * 2;
+            System.out.println(c);
+        }
     }
 }
